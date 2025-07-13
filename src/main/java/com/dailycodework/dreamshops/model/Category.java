@@ -1,5 +1,6 @@
 package com.dailycodework.dreamshops.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,6 +13,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 public class Category {
     private Long id;
     private  String name;
